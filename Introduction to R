@@ -1,0 +1,42 @@
+> 3+2
+[1] 5
+> 9/22
+[1] 0.4090909
+> 7*9
+[1] 63
+> 9+4->x
+> 9 + 4 -> x
+> y = x * 2
+> 
+> 5 * 9 -> a
+> a
+[1] 45
+> y = x *7
+> y
+[1] 91
+> z = 6 * y
+> z
+[1] 546
+> money_in_chars <- c("20" "40" "60")
+Error: unexpected string constant in "money_in_chars <- c("20" "40""
+> money_in_char <- c("20", "40","60")
+> typeof(money_in_chars)
+Error in typeof(money_in_chars) : object 'money_in_chars' not found
+> typeof (money_in_char)
+[1] "character"
+> money_money <- as.numeric(money_in_char)
+> money_money
+[1] 20 40 60
+> month.abb[4]
+[1] "Apr"
+> month.abb[9]
+[1] "Sep"
+> month.name[Apr]
+Error: object 'Apr' not found
+> month.abb[c(2,5,7,10)]
+[1] "Feb" "May" "Jul" "Oct"
+> set.seed(100)
+> so_many_numbers <- runif(10, min = 10, max = 50)
+> so_many_numbers
+ [1] 22.31064 20.30690 32.09290 12.25533 28.74197 29.35083 42.49610 24.81282
+ [9] 31.86234 16.81048
